@@ -17,7 +17,7 @@ class Anyenv < Formula
         end
     end
 
-    def caveats; <<-EOS.undent
+    def caveats; <<~EOS
         To enable anyenv, add below code to your ~/.*shrc:
             export PATH="$(anyenv root)/bin:$PATH"
             eval "$(anyenv init -)"
